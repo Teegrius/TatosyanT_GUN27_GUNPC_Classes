@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RPt
+namespace RPG
 {
     internal class Program
     {
