@@ -1,5 +1,4 @@
-﻿using RPG;
-using System;
+﻿using System;
 
 namespace HomeWork
 {
@@ -23,8 +22,8 @@ namespace HomeWork
             {
                 var room = rooms[i];
                 Console.WriteLine($"Room {i + 1}:");
-                Console.WriteLine($"  Unit: {room.Unit.Name}");
-                Console.WriteLine($"  Weapon: {room.Weapon.Name}");
+                Console.WriteLine($"  Unit: {room.Unit.Name}, HP: {room.Unit.Health}, Damage: {room.Unit.Damage}");
+                Console.WriteLine($"  Weapon: {room.Weapon.Name}, Damage: {room.Weapon.Damage}");
                 Console.WriteLine("—");
             }
         }
